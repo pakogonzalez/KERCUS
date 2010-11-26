@@ -1,0 +1,222 @@
+#panelInfo{
+	padding: 16px 22px 0px 0px;
+	float: right;
+	color:#FFFFFF;
+	font-family:"Trebuchet MS",sans-serif;
+}
+#panelInfo a{
+	color: #FFFFFF;
+	text-decoration:none;
+	font-weight:bold;
+}
+#container{
+	width:99%;
+}
+.box{
+
+	width:100%;
+    position:relative;
+    background:#fff url(click.png) no-repeat 380px 180px;
+	-moz-box-shadow:0px 0px 10px #aaa;
+	-webkit-box-shadow:0px 0px 10px #aaa;
+	-box-shadow:0px 0px 10px #aaa;
+	z-index: 900;
+}
+.box ul li{
+	margin: 0px;
+}
+#header h1{
+	color:#f0f0f0;
+	text-shadow: 1px 1px 2px #000;
+	font-size:0px;
+	
+	letter-spacing: 5px;
+}
+#header h1 a:hover{
+	text-decoration: none;
+}
+#header h1 img{
+	border:none;
+}
+
+ul.ldd_menu{
+	margin:0px;
+	padding:0;
+	display:block;
+	height:50px;
+	background-color:#39DADC;
+	list-style:none;
+	font-family:"Trebuchet MS", sans-serif;
+	border-top:1px solid #64B8FF;
+	border-bottom:1px solid #64B8FF;
+	border-left:10px solid #298ADC;
+	-moz-box-shadow:0px 3px 4px #274864;
+	-webkit-box-shadow:0px 3px 4px #274864;
+	-box-shadow:0px 3px 4px #274864;
+}
+ul.ldd_menu a{
+	text-decoration:none;
+}
+ul.ldd_menu > li{
+	float:left;
+	position:relative;
+}
+ul.ldd_menu > li > span{
+	float:left;
+	color:#fff;
+	background-color:#298ADC;
+	height:50px;
+	line-height:50px;
+	cursor:default;
+	padding:0px 20px;
+	text-shadow:0px 0px 1px #fff;
+	border-right:1px solid #94ceff;
+	border-left:1px solid #2377be;
+}
+ul.ldd_menu .ldd_submenu{
+	position:absolute;
+	top:50px;
+	width:506px;
+	display:none;
+	opacity:0.95;
+	left:0px;
+	font-size:10px;
+	background: #298ADC;
+	border-top:1px solid #64B8FF;
+	-moz-box-shadow:0px 3px 4px #274864 inset;
+	-webkit-box-shadow:0px 3px 4px #274864 inset;
+	-box-shadow:0px 3px 4px #274864 inset;
+}
+a.ldd_subfoot{
+	background-color:#f0f0f0;
+	color:#444;
+	display:block;
+	clear:both;
+	padding:15px 20px;
+	text-transform:uppercase;
+	font-family: Arial, serif;
+	font-size:12px;
+	text-shadow:0px 0px 1px #fff;
+	-moz-box-shadow:0px 0px 2px #777 inset;
+	-webkit-box-shadow:0px 0px 2px #777 inset;
+	-box-shadow:0px 0px 2px #777 inset;
+}
+ul.ldd_menu ul{
+	list-style:none;
+	float:left;
+	border-left:1px solid #64B8FF;
+	margin:20px 0px 10px 18px;
+	padding:10px;
+}
+li.ldd_heading{
+	font-family: Georgia, serif;
+	font-size: 16px;
+	font-style: italic;
+	color:#d0e9ff;
+	text-shadow:0px 0px 1px #298ADC;
+	padding:0px 0px 10px 0px;
+}
+ul.ldd_menu ul li a{
+	font-family: Arial, serif;
+	font-size:13px;
+	line-height:20px;
+	color:#fff;
+	padding:1px 3px;
+}
+ul.ldd_menu ul li a:hover{
+	-moz-box-shadow:0px 0px 2px #333;
+	-webkit-box-shadow:0px 0px 2px #333;
+	box-shadow:0px 0px 2px #333;
+	background:#274864;
+}
+#login{
+	width: 800px;
+	height: 450px;
+	margin: 50px auto;
+	background: url('../img/login_bg.jpg') no-repeat;
+}
+#form_login{
+	width: 200px;
+	float: right;
+	margin:55px 100px 0px 0px;
+}
+body.login {
+	background-color:#bedc64;
+}
+#form_login h1 {
+	border-bottom:1px solid #FFFFFF;
+	color:white;
+	font-family:Helvetica;
+	font-size:150%;
+	font-weight:normal;
+	margin:0 0 31px 0;
+	text-shadow:1px 1px 2px #444444;
+}
+#form_login label {
+	color:white;
+	font-size:120%;
+	margin-bottom:5px;
+	text-shadow:1px 1px 2px #444444;
+	font-family: Helvetica;
+}
+#form_login .text {
+	margin-bottom:10px;
+	width:100%;
+	font-size: 12px;
+}
+#form_login input {
+	border:1px solid #CCCCCC;
+	color:#445566;
+	letter-spacing:1px;
+	padding:5px;
+}
+#form_login input[type="submit"] {
+	-moz-border-radius:8px 8px 8px 8px;
+	background:-moz-linear-gradient(center top , #F1F1D4, #BEDC64) repeat scroll 0 0 #BEDC64;
+	border:1px solid #AAAC62;
+	color:#333333;
+	font-weight:normal;
+	margin:25px 0;
+	min-width:0;
+	padding:4px 22px;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+#form_login .remember {
+	font-size: 10px;
+	font-family: Helvetica;
+	color:#FFFFFF;
+}
+#form_login .password {
+	margin-bottom:10px;
+	width:100%;
+	font-size: 12px;
+}
+
+.ui-jqdialog-content .CaptionTD {
+	padding:7px !important;
+}
+.ui-jqdialog .ui-jqdialog-titlebar {
+	padding:0.5em 0.4em !important;
+}
+.ui-jqdialog {
+	font-size:13px !important;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+	font-size:1.2em !important;
+}
+.ui-jqgrid .ui-pg-selbox {
+	height:23px !important;
+}
+.ui-jqgrid .ui-jqgrid-titlebar {
+	padding:0.8em 0.2em 0.4em 0.5em !important;
+}
+.ui-jqgrid {
+	font-size:13px !important;
+}
+
+
+.ui-jqdialog-content .DataTD {
+	padding:7px 1px 1px !important;
+}
